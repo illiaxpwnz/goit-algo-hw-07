@@ -147,7 +147,7 @@ for key in keys:
 total_sum = find_sum(root)
 print("Сума всіх значень у дереві:", total_sum)
 
-# Видалити деякі ключі
+# Delete some keys
 keys_to_delete = [10, 27]
 for key in keys_to_delete:
     root = delete_node(root, key)
